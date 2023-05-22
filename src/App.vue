@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Plus } from '@element-plus/icons-vue'
+</script>
 
 <template>
-  <div>123</div>
+  <div>
+    <el-button type="primary" :icon="Plus">+</el-button>
+  </div>
 </template>
 
 <style scoped></style>
