@@ -5,9 +5,14 @@ import { Plus } from '@element-plus/icons-vue'
 
 <template>
   <div>
+    <div class="use">111333</div>
     <el-button type="primary" :icon="Plus">+</el-button>
     <svg-icon name="phone" />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.use {
+  color: $color;
+}
+</style>
